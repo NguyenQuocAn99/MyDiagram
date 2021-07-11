@@ -1,1 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2021-07-11T02:44:49.679Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" version="14.8.5" etag="V0NfVLOcDSsvXWnAp1jD" type="github"><diagram id="vU-5NTPj3rx_MX0awFuu">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-11T04:09:20.080Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="VUM8YbBQQf1_az9_IXhC" version="14.8.5" type="github">
+  <diagram id="vU-5NTPj3rx_MX0awFuu" name="Page-1">
+    <mxGraphModel dx="952" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="P3qdoUbuk39A1bOpKLFW-1" value="Người bán" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="500" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P3qdoUbuk39A1bOpKLFW-2" value="Quản lý sản phẩm của shop" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="590" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="P3qdoUbuk39A1bOpKLFW-3" value="Quản lý giỏ hàng" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="410" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="P3qdoUbuk39A1bOpKLFW-4" value="" style="endArrow=none;html=1;exitX=0.659;exitY=0.024;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="P3qdoUbuk39A1bOpKLFW-2" target="P3qdoUbuk39A1bOpKLFW-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="640" as="sourcePoint" />
+            <mxPoint x="440" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P3qdoUbuk39A1bOpKLFW-5" value="" style="endArrow=none;html=1;entryX=0.266;entryY=0.972;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="P3qdoUbuk39A1bOpKLFW-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="530" as="sourcePoint" />
+            <mxPoint x="440" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
