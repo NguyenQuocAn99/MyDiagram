@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-07-12T05:18:52.213Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="MV36VG-Yi8tiA-JBnFDl" version="14.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-12T05:22:08.855Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="fPxU88A_4ThB65BcAZ99" version="14.8.5" type="github">
   <diagram id="dqaZKvKSdflm3RaCMeF8" name="Page-1">
     <mxGraphModel dx="549" dy="495" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="USypLiao99w2niG7M47V-1" value="Người dùng" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
-          <mxGeometry x="164.5" y="128" width="280" height="862" as="geometry" />
+          <mxGeometry x="164.5" y="128" width="280" height="842" as="geometry" />
         </mxCell>
         <mxCell id="USypLiao99w2niG7M47V-2" value="" style="ellipse;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="USypLiao99w2niG7M47V-1" vertex="1">
           <mxGeometry x="100" y="40" width="30" height="30" as="geometry" />
@@ -25,7 +25,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="USypLiao99w2niG7M47V-8" value="Giao diện" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
-          <mxGeometry x="444.5" y="128" width="280" height="862" as="geometry" />
+          <mxGeometry x="444.5" y="128" width="280" height="842" as="geometry" />
         </mxCell>
         <mxCell id="USypLiao99w2niG7M47V-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="USypLiao99w2niG7M47V-8" source="USypLiao99w2niG7M47V-10" target="USypLiao99w2niG7M47V-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -45,17 +45,18 @@
         <mxCell id="USypLiao99w2niG7M47V-30" value="Thông báo &#xa;hêt hàng" style="" parent="USypLiao99w2niG7M47V-8" vertex="1">
           <mxGeometry x="85.5" y="284" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="jEJmMbxQXp3m3aQmkkZc-3" value="" style="ellipse;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="USypLiao99w2niG7M47V-8">
-          <mxGeometry x="125" y="372" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="jEJmMbxQXp3m3aQmkkZc-4" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="USypLiao99w2niG7M47V-8" source="USypLiao99w2niG7M47V-30" target="jEJmMbxQXp3m3aQmkkZc-3">
+        <mxCell id="jEJmMbxQXp3m3aQmkkZc-4" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="USypLiao99w2niG7M47V-8" source="USypLiao99w2niG7M47V-30">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="145.5" y="352" as="sourcePoint" />
-            <mxPoint x="145.5" y="402" as="targetPoint" />
+            <mxPoint x="140.5" y="732" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="35.5" y="309" />
+              <mxPoint x="35.5" y="732" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="USypLiao99w2niG7M47V-14" value="Hệ thống" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
-          <mxGeometry x="724.5" y="130" width="280" height="860" as="geometry" />
+          <mxGeometry x="724.5" y="130" width="280" height="840" as="geometry" />
         </mxCell>
         <mxCell id="USypLiao99w2niG7M47V-15" value="Kiểm tra tồn tại&#xa;sp trong giỏ" style="rhombus;fillColor=#ffffc0;strokeColor=#ff0000;" parent="USypLiao99w2niG7M47V-14" vertex="1">
           <mxGeometry x="85" y="410" width="110" height="86" as="geometry" />
