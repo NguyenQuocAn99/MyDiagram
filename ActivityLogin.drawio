@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-23T04:35:52.030Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="kHmr5-Apa7kWPR7CMgM9" version="14.9.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-23T04:36:09.543Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="Mvrkd3_Ll0umyT56qy7j" version="14.9.0" type="github">
   <diagram id="m9YxTYbFuq8XrT7B8z0A" name="Page-1">
     <mxGraphModel dx="952" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -33,7 +33,7 @@
         <mxCell id="tWC7mckAVRyr-sFawbDM-9" value="Form đăng nhập" style="" parent="tWC7mckAVRyr-sFawbDM-8" vertex="1">
           <mxGeometry x="85.5" y="202" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="tWC7mckAVRyr-sFawbDM-10" value="Trang chủ Fshop" style="" parent="tWC7mckAVRyr-sFawbDM-8" vertex="1">
+        <mxCell id="tWC7mckAVRyr-sFawbDM-10" value="Trang chủ Fsale" style="" parent="tWC7mckAVRyr-sFawbDM-8" vertex="1">
           <mxGeometry x="85" y="602" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="tWC7mckAVRyr-sFawbDM-11" value="Form đăng nhập" style="" parent="tWC7mckAVRyr-sFawbDM-8" vertex="1">
