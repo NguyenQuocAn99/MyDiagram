@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-12T06:18:21.803Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="Bk9IN-lOXbhTF0kiBFkN" version="14.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-23T04:37:01.656Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="IBZqyMELboNzBmiVNwr3" version="14.9.0" type="github">
   <diagram id="HsAwxhYzKf-S3YLzliP9" name="Page-1">
-    <mxGraphModel dx="915" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="952" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15,7 +15,7 @@
             <mxPoint x="115" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="honk8JcK8nrwYl9ZCn5K-4" value="Truy cập Fshop" style="" parent="honk8JcK8nrwYl9ZCn5K-1" vertex="1">
+        <mxCell id="honk8JcK8nrwYl9ZCn5K-4" value="Truy cập Fsale" style="" parent="honk8JcK8nrwYl9ZCn5K-1" vertex="1">
           <mxGeometry x="60" y="110" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="honk8JcK8nrwYl9ZCn5K-5" value="Nhấn vào icon &#xa;giỏ hàng" style="" parent="honk8JcK8nrwYl9ZCn5K-1" vertex="1">
@@ -33,7 +33,7 @@
         <mxCell id="honk8JcK8nrwYl9ZCn5K-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="honk8JcK8nrwYl9ZCn5K-7" source="honk8JcK8nrwYl9ZCn5K-9" target="honk8JcK8nrwYl9ZCn5K-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="honk8JcK8nrwYl9ZCn5K-9" value="Trang chủ Fshop" style="" parent="honk8JcK8nrwYl9ZCn5K-7" vertex="1">
+        <mxCell id="honk8JcK8nrwYl9ZCn5K-9" value="Trang chủ Fsale" style="" parent="honk8JcK8nrwYl9ZCn5K-7" vertex="1">
           <mxGeometry x="85" y="592" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="honk8JcK8nrwYl9ZCn5K-10" value="" style="ellipse;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="honk8JcK8nrwYl9ZCn5K-7" vertex="1">
@@ -54,13 +54,13 @@
         <mxCell id="honk8JcK8nrwYl9ZCn5K-19" value="Tạo các chi tiết &#xa;đơn hàng theo sp" style="" parent="honk8JcK8nrwYl9ZCn5K-14" vertex="1">
           <mxGeometry x="75.5" y="510" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="honk8JcK8nrwYl9ZCn5K-20" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="honk8JcK8nrwYl9ZCn5K-14" target="honk8JcK8nrwYl9ZCn5K-19" edge="1" source="f_JBropepbeSfBX6f8aN-1">
+        <mxCell id="honk8JcK8nrwYl9ZCn5K-20" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="honk8JcK8nrwYl9ZCn5K-14" source="f_JBropepbeSfBX6f8aN-1" target="honk8JcK8nrwYl9ZCn5K-19" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="140" y="496" as="sourcePoint" />
             <mxPoint x="146.5" y="542" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="f_JBropepbeSfBX6f8aN-1" value="Tạo đơn hàng&#xa;với trạng thái là&#xa;&quot;mới tạo&quot;" style="" vertex="1" parent="honk8JcK8nrwYl9ZCn5K-14">
+        <mxCell id="f_JBropepbeSfBX6f8aN-1" value="Tạo đơn hàng&#xa;với trạng thái là&#xa;&quot;mới tạo&quot;" style="" parent="honk8JcK8nrwYl9ZCn5K-14" vertex="1">
           <mxGeometry x="75.5" y="400" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="honk8JcK8nrwYl9ZCn5K-29" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="honk8JcK8nrwYl9ZCn5K-5" target="honk8JcK8nrwYl9ZCn5K-32" edge="1">
@@ -89,7 +89,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="f_JBropepbeSfBX6f8aN-2" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="honk8JcK8nrwYl9ZCn5K-33" target="f_JBropepbeSfBX6f8aN-1">
+        <mxCell id="f_JBropepbeSfBX6f8aN-2" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="honk8JcK8nrwYl9ZCn5K-33" target="f_JBropepbeSfBX6f8aN-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="600" y="470" as="sourcePoint" />
             <mxPoint x="890" y="465" as="targetPoint" />
