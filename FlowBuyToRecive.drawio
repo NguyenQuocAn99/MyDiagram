@@ -1,17 +1,47 @@
-<mxfile host="app.diagrams.net" modified="2021-07-25T11:01:30.222Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="BUs1pQYhoE_5HIfEwQUV" version="14.9.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-25T11:51:38.477Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="PpAcgwD3kvYLHYkjXMNS" version="14.9.0" type="github">
   <diagram id="mhvoOG88jGW_0UVHlXRX" name="Page-1">
-    <mxGraphModel dx="952" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="309" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="3SAwy5i2-7SL_gy8jVU0-1" value="Người mua đặt hàng" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="170" width="120" height="60" as="geometry" />
+        <mxCell id="3SAwy5i2-7SL_gy8jVU0-1" value="Người mua hàng đặt hàng" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3SAwy5i2-7SL_gy8jVU0-2" value="Người bán xác nhận đơn và gửi hàng về kho tập kết hàng" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="170" width="120" height="60" as="geometry" />
+          <mxGeometry x="160" y="170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3SAwy5i2-7SL_gy8jVU0-3" value="Người bán xác nhận đơn và gửi hàng về kho tập kết hàng" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="170" width="120" height="60" as="geometry" />
+        <mxCell id="3SAwy5i2-7SL_gy8jVU0-3" value="Thủ kho kiểm tra hàng đã có ở kho tập kết thì duyệt đơn hàng" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3SAwy5i2-7SL_gy8jVU0-4" value="Đơn hàng đã duyệt được đem giao đến người mua hàng" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3SAwy5i2-7SL_gy8jVU0-5" value="Người mua hàng nhận hàng và xác nhận hàng đã được giao" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3SAwy5i2-7SL_gy8jVU0-6" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3SAwy5i2-7SL_gy8jVU0-1" target="3SAwy5i2-7SL_gy8jVU0-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="350" as="sourcePoint" />
+            <mxPoint x="100" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3SAwy5i2-7SL_gy8jVU0-7" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3SAwy5i2-7SL_gy8jVU0-2" target="3SAwy5i2-7SL_gy8jVU0-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="210" as="sourcePoint" />
+            <mxPoint x="160" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3SAwy5i2-7SL_gy8jVU0-8" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="3SAwy5i2-7SL_gy8jVU0-3" target="3SAwy5i2-7SL_gy8jVU0-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="200" as="sourcePoint" />
+            <mxPoint x="170" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3SAwy5i2-7SL_gy8jVU0-10" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3SAwy5i2-7SL_gy8jVU0-4" target="3SAwy5i2-7SL_gy8jVU0-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="260" as="sourcePoint" />
+            <mxPoint x="650" y="260" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
